@@ -305,7 +305,7 @@ const Home = () => {
               <div className="profile_box  overflow-hidden h-60   md:h-auto md:w-full place-self-center ">
                 <img
                   className=" h-auto w-full  px-8  md:px-0     "
-                  src="./src/assets/image/photo.jpg"
+                  src="/src/assets/image/photo.jpg"
                   alt="user profile"
                 />
               </div>
