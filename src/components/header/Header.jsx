@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { setMenu } from "../../store/slices/navSlice";
 import "./header.css";
 
+
 const Header = () => {
   // update state
   const dispatch = useDispatch();
