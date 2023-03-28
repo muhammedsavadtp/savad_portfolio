@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+*{
+    -webkit-tap-highlight-color: transparent;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    /* background: url(https://wallpapercave.com/dwp1x/wp4791742.jpg); */
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+   /* overflow-y: hidden; */
+}
+#root{
+    /* display: flex;
+    justify-content: center;
+    overflow: hidden; */
+    /* max-width:1280px; */
+
+    
+    /* height: 300vh; */
+}
