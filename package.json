@@ -1,12 +1,13 @@
 {
-  "name": "portfolio-savad",
+  "name": "portfolio-_2023",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
@@ -19,11 +20,14 @@
     "@mui/material": "^5.11.14",
     "@react-three/fiber": "^8.12.0",
     "@reduxjs/toolkit": "^1.9.3",
+    "browser-router": "^0.2.0",
     "framer-motion": "^10.8.2",
     "framer-motion-3d": "^10.8.4",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.5",
+    "react-router-dom": "^6.9.0",
     "three": "^0.150.1"
   },
   "devDependencies": {
